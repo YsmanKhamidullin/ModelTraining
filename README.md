@@ -3,18 +3,26 @@
 [//]: # (### What and Why)
 
 [//]: # ()
+
 [//]: # (This project is for translating the text in your screen.)
 
 ### Getting start
 
-1. Clone project
-2. Execute streamlit app:
+Streamlit app:
 
 ```
-streamlit run ../ModelTraining/main_app.py
+1. Execute: streamlit run streamlit_app.py
+App will open browser itself
 ```
 
-### Current Implemetation
+FastApi app:
+
+```
+1. Execute: uvicorn fastapi_app:app --reload
+2. Open in browser: http://127.0.0.1:8000/docs#/
+```
+
+### Current Implementation
 
 > Get jp text from image
 
