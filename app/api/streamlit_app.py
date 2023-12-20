@@ -1,5 +1,12 @@
+import os
 import streamlit as st
-from app.modules import jp_ocr
+import sys
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+parentDir = os.path.abspath(os.path.join(dir_path, os.path.pardir))
+modulesDir = os.path.join(parentDir, "modules")
+sys.path.append(modulesDir)
+import jp_ocr
 
 
 def open_image():

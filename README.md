@@ -13,7 +13,7 @@ Streamlit app:
 ```
 git clone https://github.com/YsmanKhamidullin/ModelTraining.git
 cd ModelTraining
-python -m streamlit run .\app\api\streamlit_app.py
+streamlit run app/api/streamlit_app.py
 ```
 Open in browser: http://localhost:8501/
 
@@ -28,12 +28,15 @@ Open in browser: http://127.0.0.1:8000/docs#/
 
 ### Current Implementation
 
-> Get jp text from image
+* > Get jp text from image with [manga-ocr](https://github.com/kha-white/manga-ocr)
+* > Using StreamLit and Fast Api
+* > Testing ocr from git push (tests/test_fast_api.py)
+* > Available online at: [StreamLit](https://ysmankhamidullin-modeltraining-appapistreamlit-app-bzphol.streamlit.app/)
 
 ### Misc info
 
 * > Maintainer
-  [Ysman Khamidullin](https://github.com/YsmanKhamidullin)
+  [Ysman Khamidullin](https://github.com/YsmanKhamidullin) RIM-130908
 
 # Model Source
 
