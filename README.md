@@ -11,16 +11,20 @@
 Streamlit app:
 
 ```
-1. Execute: streamlit run streamlit_app.py
-App will open browser itself
+git clone python -m streamlit run .\app\api\streamlit_app.py
+cd ModelTraining
+python -m streamlit run .\app\api\streamlit_app.py
 ```
+Open in browser: http://localhost:8501/
 
 FastApi app:
 
 ```
-1. Execute: uvicorn fastapi_app:app --reload
-2. Open in browser: http://127.0.0.1:8000/docs#/
+git clone python -m streamlit run .\app\api\streamlit_app.py
+cd ModelTraining
+uvicorn fastapi_app:app --reload
 ```
+Open in browser: http://127.0.0.1:8000/docs#/
 
 ### Current Implementation
 
