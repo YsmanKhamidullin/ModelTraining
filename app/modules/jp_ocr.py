@@ -1,4 +1,3 @@
-# jp_ocr.py
 from typing import Annotated
 
 from fastapi import File

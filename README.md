@@ -11,7 +11,7 @@
 Streamlit app:
 
 ```
-git clone python -m streamlit run .\app\api\streamlit_app.py
+git clone https://github.com/YsmanKhamidullin/ModelTraining.git
 cd ModelTraining
 python -m streamlit run .\app\api\streamlit_app.py
 ```
@@ -20,9 +20,9 @@ Open in browser: http://localhost:8501/
 FastApi app:
 
 ```
-git clone python -m streamlit run .\app\api\streamlit_app.py
+git clone https://github.com/YsmanKhamidullin/ModelTraining.git
 cd ModelTraining
-uvicorn fastapi_app:app --reload
+uvicorn app.api.fastapi_app:app --reload 
 ```
 Open in browser: http://127.0.0.1:8000/docs#/
 
